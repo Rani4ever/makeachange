@@ -6,13 +6,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* Style the header */
+.header {
+    background-color: aqua;
+    padding: 40px 10px;
+    color: darkblue;
+    text-align: center;
+}
 header {
   background-color: #791919;
   padding: 30px;
   text-align: center;
   font-size: 35px;
   color: white;
+}
+
+.content-area {
+    background-color: darkcyan;
+    color: darkblue;
+    width: auto;
+    height: 300px;
+    padding: 20px;
 }
 
 /* Create two columns/boxes that floats next to each other */
